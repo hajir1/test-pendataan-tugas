@@ -28,8 +28,8 @@ Diperbarui oleh developer maupun AI agent setiap selesai satu pekerjaan (lihat `
 - File terdampak: `.gitignore`, `plan.md`, `history.md`
 - Dependensi baru: —
 - Keputusan/asumsi: pembaruan aplikasi akan masuk ke GitHub setelah di-commit dan di-push; CI berjalan otomatis untuk push ke `main` dan pull request
-- Verifikasi: lint ✅ · test ✅ · build ✅ · GitHub push menunggu
-- Catatan/Masalah: `.env` lokal sengaja tidak dilacak; hanya `.env.example` yang disertakan.
+- Verifikasi: lint ✅ · test ✅ · build ✅ · GitHub push ✅
+- Catatan/Masalah: `.env` lokal sengaja tidak dilacak; hanya `.env.example` yang disertakan. Branch lokal `main` melacak `origin/main`.
 
 ## [2026-11-16] Inisialisasi aplikasi TaskFlow dan validasi kode
 - Fase/Item plan: Fase 1 — Inisialisasi proyek React
